@@ -21,9 +21,9 @@ export default function TabsDemo() {
               showPreview={true}
             />
             <ProjectCard
-              title="Investment Portfolio Analysis"
-              description="Comprehensive analysis of investment strategies and risk management for high-net-worth individuals"
-              image="/placeholder.svg?height=200&width=300"
+              title="BCN-Bain Wars Case Study"
+              description="Optimized COGS across 3 Indian cities by uncovering supply chain efficiencies post-AutoAI acquisition."
+              image="/images/Bain_Logo.png"
               tags={["Financial Analysis", "Risk Management", "Portfolio Optimization"]}
               previewUrl="https://github.com/MpainGutsy/Case-Studies/blob/main/Bain_Wars_Submission.pdf"
               showPreview={true}
@@ -40,19 +40,19 @@ export default function TabsDemo() {
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">Analytics Reports</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <ProjectCard
-              title="Investor Relations Dashboard"
-              description="Real-time analytics platform for tracking investor engagement and portfolio performance metrics"
-              image="/placeholder.svg?height=200&width=300"
-              tags={["Data Analytics", "Investor Relations", "Performance Tracking"]}
-              previewUrl="https://example.com/investor-dashboard.pdf"
+              title="Sesame International Power BI Project"
+              description="Real-time analytics platform for tracking sesame international engagement and performance metrics"
+              image="public\images\Sesame.png"
+              tags={["Data Analytics", "Growth Metrics", "Performance Tracking"]}
+              previewUrl="https://github.com/MpainGutsy/Celebal_Summer_Internship_submission/tree/main/Sesame%20International%20Capstone%20Project"
               showPreview={true}
             />
             <ProjectCard
-              title="Market Positioning Analysis"
-              description="Comprehensive market research and positioning strategy for financial services sector"
-              image="/placeholder.svg?height=200&width=300"
-              tags={["Market Research", "Positioning", "Competitive Intelligence"]}
-              previewUrl="https://example.com/market-analysis.pdf"
+              title="Employee Database Management Project"
+              description="A comprehensive Power BI dashboard designed to provide insightful analytics on employee productivity, project allocation, and manager performance across departments"
+              image="public\images\Employee.png"
+              tags={["Market Research","Employee Analytics","Project Allocation","Manager Performance"]}
+              previewUrl="https://github.com/MpainGutsy/PowerBi-Projects/tree/main/Employee%20Database%20Management%20Projecthttps://example.com/market-analysis.p"
               showPreview={true}
             />
           </div>
@@ -67,20 +67,20 @@ export default function TabsDemo() {
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">Product Teardowns</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <ProjectCard
-              title="FinTech Dashboard Development"
-              description="Modern financial dashboard with real-time data visualization and portfolio management features"
+              title="Matiks Product Teardown"
+              description="A detailed analysis of the Matiks product, including its features, user experience, and market positioning."
               image="/placeholder.svg?height=200&width=300"
-              tags={["FinTech", "Dashboard", "Data Visualization"]}
-              demoUrl="https://example.com/fintech-demo"
-              repoUrl="https://github.com/example/fintech-dashboard"
+              tags={["Product Teardown", "Market Research", "Competitive Analysis"]}
+              demoUrl="public\images\Matiks.png"
+              repoUrl="https://github.com/example/fintech-dashboardhttps://github.com/MpainGutsy/Case-Studies/blob/main/Matiks_product_teardown1.pdf"
             />
             <ProjectCard
-              title="Analytics Platform"
-              description="Comprehensive analytics platform for financial data processing and reporting"
+              title="Spotify Product Teardown"
+              description="Spotify is a music streaming platform that allows users to listen to millions of songs for free. It is one of the most popular music streaming platforms in the world, and it has a large user base."
               image="/placeholder.svg?height=200&width=300"
-              tags={["Analytics", "Data Processing", "Reporting"]}
-              demoUrl="https://example.com/analytics-demo"
-              repoUrl="https://github.com/example/analytics-platform"
+              tags={["Product Teardown", "Market Research", "Competitive Analysis"]}
+              demoUrl="public\images\Spotify.jpg"
+              repoUrl="https://github.com/MpainGutsy/Case-Studies/blob/main/Spotify%20Product%20Teardown.pdf"
             />
           </div>
         </div>
@@ -94,20 +94,20 @@ export default function TabsDemo() {
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">Product Prototypes</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <ProjectCard
-              title="Dramatics Society Leadership"
-              description="Led university dramatics society with 200+ members, organizing major cultural events and productions"
+              title="Portfolio Website"
+              description="Portfolio Website"
               image="/placeholder.svg?height=200&width=300"
-              tags={["Leadership", "Event Management", "Team Building"]}
-              demoUrl="https://example.com/dramatics-portfolio"
-              repoUrl="https://github.com/example/dramatics-society"
+              tags={["Vercel","Next.js","Tailwind CSS","Shadcn UI"]}
+              demoUrl=""
+              repoUrl="https://github.com/MpainGutsy/portfolio-website"
             />
             <ProjectCard
-              title="NCC Leadership Role"
-              description="Served as senior cadet in National Cadet Corps, leading training programs and community service initiatives"
+              title="CaseHats-AI"
+              description="An AI Case Scenarios and Interviews preparation platform"
               image="/placeholder.svg?height=200&width=300"
               tags={["Leadership", "Training", "Community Service"]}
-              demoUrl="https://example.com/ncc-portfolio"
-              repoUrl="https://github.com/example/ncc-leadership"
+              demoUrl=""
+              repoUrl=""
             />
           </div>
         </div>

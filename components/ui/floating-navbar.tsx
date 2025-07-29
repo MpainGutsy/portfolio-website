@@ -73,10 +73,16 @@ export const FloatingNav = ({
             <span className="hidden sm:block text-sm font-medium">{navItem.name}</span>
           </a>
         ))}
-        <button className="border border-[#0D7377]/40 text-sm font-medium relative text-white px-4 py-2 rounded-full bg-gradient-to-r from-[#0D7377] to-[#32E0C4] hover:from-[#32E0C4] hover:to-[#0D7377] transition-all duration-300 shadow-lg shadow-[#0D7377]/25">
+        <a
+          href="/documents/raj-awasthi-resume.pdf"
+          download
+          target="_blank"
+          rel="noopener noreferrer"
+          className="border border-[#0D7377]/40 text-sm font-medium relative text-white px-4 py-2 rounded-full bg-gradient-to-r from-[#0D7377] to-[#32E0C4] hover:from-[#32E0C4] hover:to-[#0D7377] transition-all duration-300 shadow-lg shadow-[#0D7377]/25 flex items-center justify-center"
+        >
           <span>Resume</span>
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-[#32E0C4] to-transparent h-px" />
-        </button>
+        </a>
       </motion.div>
     </AnimatePresence>
   )

@@ -82,12 +82,15 @@ export function FloatingNav() {
                   {item.name}
                 </Link>
               ))}
-              <Button
-                size="sm"
-                className="ml-2 bg-gradient-to-r from-[#0D7377] to-[#32E0C4] hover:from-[#32E0C4] hover:to-[#0D7377] border-0 shadow-lg shadow-[#0D7377]/25 hover:shadow-[#32E0C4]/40 transition-all duration-300"
+              <a
+                href="/documents/raj-awasthi-resume.pdf"
+                download
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-2 bg-gradient-to-r from-[#0D7377] to-[#32E0C4] hover:from-[#32E0C4] hover:to-[#0D7377] border-0 shadow-lg shadow-[#0D7377]/25 hover:shadow-[#32E0C4]/40 transition-all duration-300 px-4 py-2 rounded-full text-white text-sm font-medium flex items-center justify-center"
               >
                 Resume
-              </Button>
+              </a>
             </div>
           )}
         </div>
@@ -112,9 +115,15 @@ export function FloatingNav() {
                 {item.name}
               </Link>
             ))}
-            <Button className="mt-6 bg-gradient-to-r from-[#0D7377] to-[#32E0C4] hover:from-[#32E0C4] hover:to-[#0D7377] border-0 shadow-lg shadow-[#0D7377]/25 hover:shadow-[#32E0C4]/40 transition-all duration-300">
+            <a
+              href="/documents/raj-awasthi-resume.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 bg-gradient-to-r from-[#0D7377] to-[#32E0C4] hover:from-[#32E0C4] hover:to-[#0D7377] border-0 shadow-lg shadow-[#0D7377]/25 hover:shadow-[#32E0C4]/40 transition-all duration-300 px-4 py-2 rounded-full text-white text-lg font-medium flex items-center justify-center"
+            >
               Resume
-            </Button>
+            </a>
           </div>
         </motion.div>
       )}

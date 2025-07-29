@@ -5,6 +5,13 @@ import { useMobile } from "@/hooks/use-mobile"
 
 const experiences = [
   {
+    title: "Data Analyst Intern",
+    company: "Celebal Technologies",
+    period: "June 2025 – August 2025",
+    description:
+      "Performed EDA and debugged SQL in MySQL Workbench for accurate data extraction. Automated reporting and built dashboards in Power BI, Excel, and Tableau, reducing manual effort and enhancing accuracy. Delivered actionable insights through stakeholder-focused, customizable dashboards.",
+  },
+  {
     title: "Startup Advisor Intern",
     company: "Varidus Capital, Singapore",
     period: "March 2024 - August 2024",
