@@ -42,7 +42,7 @@ export default function TabsDemo() {
             <ProjectCard
               title="Sesame International Power BI Project"
               description="Real-time analytics platform for tracking sesame international engagement and performance metrics"
-              image="public\images\Sesame.png"
+              image="\images\Sesame.png"
               tags={["Data Analytics", "Growth Metrics", "Performance Tracking"]}
               previewUrl="https://github.com/MpainGutsy/Celebal_Summer_Internship_submission/tree/main/Sesame%20International%20Capstone%20Project"
               showPreview={true}
@@ -50,7 +50,7 @@ export default function TabsDemo() {
             <ProjectCard
               title="Employee Database Management Project"
               description="A comprehensive Power BI dashboard designed to provide insightful analytics on employee productivity, project allocation, and manager performance across departments"
-              image="public\images\Employee.png"
+              image="\images\Employee.png"
               tags={["Market Research","Employee Analytics","Project Allocation","Manager Performance"]}
               previewUrl="https://github.com/MpainGutsy/PowerBi-Projects/tree/main/Employee%20Database%20Management%20Projecthttps://example.com/market-analysis.p"
               showPreview={true}
@@ -69,15 +69,16 @@ export default function TabsDemo() {
             <ProjectCard
               title="Matiks Product Teardown"
               description="A detailed analysis of the Matiks product, including its features, user experience, and market positioning."
-              image="/placeholder.svg?height=200&width=300"
+              image="\images\Matiks.png"
               tags={["Product Teardown", "Market Research", "Competitive Analysis"]}
+              showPreview={true}
               demoUrl="public\images\Matiks.png"
               repoUrl="https://github.com/example/fintech-dashboardhttps://github.com/MpainGutsy/Case-Studies/blob/main/Matiks_product_teardown1.pdf"
             />
             <ProjectCard
               title="Spotify Product Teardown"
               description="Spotify is a music streaming platform that allows users to listen to millions of songs for free. It is one of the most popular music streaming platforms in the world, and it has a large user base."
-              image="/placeholder.svg?height=200&width=300"
+              image="\images\Spotify.jpg"
               tags={["Product Teardown", "Market Research", "Competitive Analysis"]}
               demoUrl="public\images\Spotify.jpg"
               repoUrl="https://github.com/MpainGutsy/Case-Studies/blob/main/Spotify%20Product%20Teardown.pdf"
@@ -114,6 +115,8 @@ export default function TabsDemo() {
       ),
     },
   ]
+
+  console.log(tabs)
 
   return (
     <div className="h-[20rem] md:h-[40rem] [perspective:1000px] relative flex flex-col max-w-5xl mx-auto w-full items-center justify-start my-40">

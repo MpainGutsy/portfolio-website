@@ -33,7 +33,7 @@ export function ProjectCard({
         <Image
           src={image || "/placeholder.svg"}
           alt={title}
-          width={400}
+          width={200}
           height={200}
           className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
         />
